@@ -1,3 +1,11 @@
+=begin
+
+This program takes a new-line seperated list of F1 drivers in the format: "FirstName LastName Number Team", and creates an array of Driver objects 
+that can be sorted. In this case, the drivers are printed out first sorted by last name then sorted by number. See driver.rb for class implementation.
+-Andrew Hepworth
+
+=end
+
 require_relative 'driver'
 
 drivers_file = File.open('driverList.txt')
